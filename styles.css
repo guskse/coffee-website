@@ -81,6 +81,10 @@ section{
     z-index:1000;
 }
 
+.header .navbar{
+    height:100%;
+}
+
 .header .logo img{
     height:6rem;
 }
@@ -395,7 +399,6 @@ section{
     color:#fff;
     background:var(--black);
     gap:1rem;
-    padding:0 10px;
     align-items:center;
 }
 
@@ -493,6 +496,21 @@ section{
 /********************/
 /***MEDIA QUERIES***/
 /******************/
+
+
+
+@media (max-width:600px){
+    html{
+        font-size:60%;
+    }
+
+    header{
+        height:100px;
+    }
+}
+
+
+
 @media (max-width:1200px){
 
     html{
@@ -538,8 +556,7 @@ section{
         right:-100%;
         background:#fff;
         width:30rem;
-        height:calc(100vh - 9.5rem);
-
+        height:100vh;
     }
 
     .about .row{
@@ -575,8 +592,3 @@ section{
 
 }
 
-@media (max-width:450px){
-    html{
-        font-size:60%;
-    }
-}
