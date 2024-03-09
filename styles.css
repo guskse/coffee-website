@@ -83,6 +83,7 @@ section{
 
 .header .navbar{
     height:100%;
+    overflow-y: auto;
 }
 
 .header .logo img{
@@ -499,18 +500,6 @@ section{
 
 
 
-@media (max-width:600px){
-    html{
-        font-size:60%;
-    }
-
-    header{
-        height:100px;
-    }
-}
-
-
-
 @media (max-width:1200px){
 
     html{
@@ -518,7 +507,11 @@ section{
     }
     
     .header{
-        padding: 1.5rem 2rem;
+        padding: 0.1rem 1.5rem;
+    }
+
+    body{
+        font-size:50%;
     }
 
 }
@@ -571,6 +564,7 @@ section{
 
     .header .navbar.active{
         right:0;
+        overflow-y: auto;
     }
 
 
@@ -592,3 +586,12 @@ section{
 
 }
 
+@media (max-width:450px){
+    html{
+        font-size:60%;
+    }
+
+    header{
+        height:100px;
+    }
+}
