@@ -83,7 +83,6 @@ section{
 
 .header .navbar{
     height:100%;
-    overflow-y: auto;
 }
 
 .header .logo img{
@@ -523,7 +522,7 @@ section{
     }
 
     .footer{
-        font-size:2rem;
+        font-size:1.5rem;
     }
 
 }
