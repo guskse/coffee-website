@@ -507,7 +507,7 @@ section{
     }
     
     .header{
-        padding: 0.1rem 0.5rem;
+        padding: 0.1rem 1.5rem;
     }
 
     body{
@@ -519,7 +519,7 @@ section{
     }
     
     .footer .links a{
-        font-size:1rem;
+        font-size:1.5rem;
     }
 
 }
